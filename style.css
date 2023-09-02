@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "yekan";
+}
+
+.contant {
+  background-color: #212020;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-color: #050505;
+}
+
+.main {
+  background-color: #212020;
+  margin: 0 auto;
+  width: 70%;
+  height: 40rem;
+}
+
+.primary-main {
+  float: left;
+}
+
+.primary-main label {
+  font-size: 1.5rem;
+}
+
+
+.main-title {
+  color: white;
+  font-size: x-large;
+}
+
+.input-note {
+  border-radius: 8px;
+  /* box-sizing: border-box; */
+  /* font-size:x-large; */
+}
+
+.type-li {
+  font-size: 1.5rem;
+  list-style-type: decimal;
+}
+
+.main{
+  padding-top: 3rem;
+}
+
+.main-submit {
+  font-size: 1rem;
+  padding: 1rem 9rem;
+  background-color: violet;
+  border: 1px solid violet;
+  border-radius: 8px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.secondary-main {
+  color: white;
+  float: right;
+  padding-left: 8rem;
+}
+.delete-btn {
+  color: red;
+  float: right;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 13px;
+  /* margin-right: 0; */
+}
+/* end of style*/
+
+/* responsive for ipad*/
+
+@media (max-width: 811px) {
+  .main {
+    text-align: center;
+    width: 100%;
+  }
+  .primary-main {
+    float: none;
+    padding-top: 3rem;
+  }
+
+  .input-note {
+    width: 46rem;
+    height: 10rem;
+  }
+  .main-submit {
+    padding: 1rem 20rem;
+    font-size: large;
+  }
+  .secondary-main {
+    padding-left: 0;
+    float: none;
+  }
+  .secondary-main h3 {
+    padding-top: 4rem;
+  }
+}
+
+/* responsive for mobile*/
+
+@media (max-width: 391px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .header h2 {
+    font-size: 1.5rem;
+  }
+  .header br { 
+    display: none;
+  }
+  .primary-main {
+    padding-top: 0;
+  }
+  .input-note {
+    width: 18rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+  .main-submit {
+    padding: 1rem 5rem;
+  }
+  .secondary-main h3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+  /* .delete-btn{
+    float: none;
+  
+  } */
+  .list-note{
+    padding-right: 5rem;
+  }
+}
+
+/* responsive for liitle size*/
+
+@media (min-width:392px)and (max-width: 727px) {
+  .input-note {
+    width: 29rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+  .main-submit {
+    padding: 1rem 6rem;
+  }
+  .primary-main {
+    padding-top: 0;
+  }
+  .primary-main br {
+    display: none;
+  }
+}
+
+
+@font-face {
+  font-family: "yekan";
+  src: url("yekan-font/Yekan.eot") format("eot");
+  src: url("yekan-font/Yekan.svg") format("svg");
+  src: url("yekan-font/Yekan.ttf") format("ttf");
+  src: url("yekan-font/Yekan.woff") format("woff");
+} 
+

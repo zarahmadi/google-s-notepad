@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>google's notepad</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="contant">
+      <div class="header">
+        <h1>notepad with Local Storage</h1>
+        <br />
+        <h2>(Browser memory )</h2>
+      </div>
+      <hr />
+      <div class="main">
+        <div class="primary-main">
+          <label class="main-title" for="input-note">Write a new note</label>
+          <br />
+          <br />
+          <form id="form" action="">
+            <textarea
+              class="input-note"
+              id="input-note"
+              cols="50"
+              rows="10"
+            ></textarea>
+            <br />
+            <input class="main-submit" value="Record notes" type="submit" />
+          </form>
+        </div>
+        <div class="secondary-main">
+          <h3>My Notes:</h3>
+          <div class="list-note"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
